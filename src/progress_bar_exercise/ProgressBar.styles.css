@@ -1,0 +1,23 @@
+/* Change the default styling of the progress bar */
+progress[value] {
+  -webkit-appearance: none;
+   appearance: none;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 2px;
+}
+
+progress[value]::-webkit-progress-value {
+  background-image: -webkit-linear-gradient(right, red , orange);
+    border-radius: 0px; 
+}
+
+.progressBar {
+  height: 6px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+} 
